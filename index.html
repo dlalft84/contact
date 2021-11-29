@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contact Form</title>
+	<link rel="stylesheet" href="style.css" />
+	<link rel="icon" href="image/favicons/favicon.ico">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Praise&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<h1>Contact Form</h1>
+		<em>with neomorph design</em>
+	</header>
+
+	<section>
+		<div class="row">
+			<div class="col-3">
+				<div class="sphere">
+					<img src="image/letter.png">
+				</div>
+			</div>
+			<div class="col-6">
+				<div class="container">
+					<div class="neomorph">
+						<form method="POST" action="contact.php">
+							<label for="fname">First Name</label>
+							<input type="text" id="fname" name="firstname" placeholder="Your name..." required>
+							<label for="lname">Last Name</label>
+							<input type="text" id="lname" name="lastname" placeholder="Your last name..." required>
+							<label for="email">Email</label>
+							<input type="email" id="email" name="email" placeholder="Your email..." required>
+						<label for="subject">Subject</label>
+						<textarea id="subject" name="subject" placeholder="Write something.." required></textarea>
+						<input type="submit" value="Submit" name="mailform">
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="col-3">
+				<div class="sphere">
+					<img src="image/letter.png">
+				</div>
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="longbar">
+			<div class="row">
+				<div class="col-33">
+					<div class="logo-social">
+						<a href="https://www.facebook.com" target="_blank"><img src="image/facebook.png"></a>
+					</div>
+				</div>
+				<div class="col-33">
+					<div class="logo-social">
+						<a href="https://www.instagram.com" target="_blank"><img src="image/instagram.png"></a>
+					</div>
+				</div>
+				<div class="col-33">
+					<div class="logo-social">
+						<a href="https://www.youtube.com" target="_blank"><img src="image/youtube.png"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<h1>Contact us</h1>
+		<em>See you soon...</em>
+	</footer>
+
+</body>
+</html>

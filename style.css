@@ -1,0 +1,179 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #232323;
+	text-align: center;
+	color: #ffffff;
+	font-size: 15px;
+	font-family: 'Montserrat', sans-serif;	
+}
+
+header {
+	min-height: 150px;
+	border: 1px solid #ffffff;
+	padding: 20px;
+}
+
+footer {
+	min-height: 150px;
+	border: 1px solid #ffffff;
+	padding: 20px;
+}
+
+h1 {
+	font-family: 'Praise', cursive;
+	font-size: 55px;
+}
+
+.container {
+	margin: 50px auto;
+	width: 90%;
+	height: 100%;
+}
+.sphere {
+	position: relative;
+	margin: 150px auto;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background-color: #232323;
+	box-shadow: -8px -8px 16px #1e1e1e,
+				8px 8px 16px #282828;
+	transition: ease 0.8s;
+
+}
+.sphere:hover {
+	box-shadow: -8px -8px 16px #282828,
+				8px 8px 16px #1e1e1e;
+	transition: ease 0.8s;
+}
+
+.sphere img {
+	margin: 20px;
+}
+
+.neomorph {
+	padding: 50px;
+	background-color: #232323;
+	border-radius: 30px;
+	box-shadow: -8px -8px 16px #1e1e1e,
+				8px 8px 16px #282828;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text],input[type=email], select, textarea {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 13px;
+  	width: 100%; 
+  	padding: 12px;  
+  	border: 1px solid #ccc;
+  	border-radius: 4px; 
+  	box-sizing: border-box; 
+  	margin-top: 6px; 
+  	margin-bottom: 16px; 
+  	resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  	background-color: #232323;
+  	color: white;
+ 	 padding: 20px 40px;
+  	border: none;
+  	border-radius: 15px;
+  	cursor: pointer;
+  	font-family: 'Montserrat', sans-serif;
+  	font-size: 18px;
+  	box-shadow: inset -8px -8px 12px #1e1e1e,
+				inset 8px 8px 12px #282828;
+	transition: ease 0.5s;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+ 	background-color: #232323;
+ 	box-shadow: inset -8px -8px 8px #282828,
+				inset 8px 8px 8px #1e1e1e;
+	transition: ease 0.5s;
+}
+
+.longbar {
+	position: relative;
+	background-color: #232323;
+	box-shadow: inset -8px -8px 12px #282828,
+				inset 8px 8px 12px #1e1e1e;
+	width: 90%;
+	margin: 20px auto;
+	padding: 20px;
+	border-radius: 20px;
+}
+
+.logo-social img{
+	border-radius: 10px;
+	margin: 5px auto;
+	padding: 5px;
+	width: 65px;
+	height: 65px;
+	background-color: #232323;
+	box-shadow: -8px -8px 16px #1e1e1e,
+				8px 8px 16px #282828;
+	transition: ease 0.8s;
+}
+.logo-social img:hover {
+	box-shadow: -8px -8px 16px #282828,
+				8px 8px 16px #1e1e1e;
+	transition: ease 0.8s;
+}
+
+/*----------------RESPONSIVE-------------*/
+
+[class*="col-"] {
+	float: left;
+	width: 100%;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media only screen and (min-width: 992px) {
+	body {
+		font-size: 20px;
+	}
+	h1 {
+		font-size: 75px;
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	.col-1 {width: 8.33%;}
+	.col-2 {width: 16.66%;}
+	.col-3 {width: 25%;}
+	.col-4 {width: 33.33%;}
+	.col-5 {width: 41.66%;}
+	.col-6 {width: 50%;}
+	.col-7 {width: 58.33%;}
+	.col-8 {width: 66.66%;}
+	.col-9 {width: 75%;}
+	.col-10 {width: 83.33%;}
+	.col-11 {width: 91.66%;}
+	.col-12 {width: 100%;}
+}
+
+.col-33 {
+	width: 33.33%;
+}
+
+
+/*---------------FONTS-----------------*/
+@import url('https://fonts.googleapis.com/css2?family=Praise&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+/*--------------------------ANIMATIONS----------------------*/
+
