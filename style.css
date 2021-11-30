@@ -90,6 +90,8 @@ input[type=submit] {
   	font-size: 18px;
   	box-shadow: inset -8px -8px 12px #1e1e1e,
 				inset 8px 8px 12px #282828;
+	-webkit-box-shadow: inset -8px -8px 12px #1e1e1e,
+				inset 8px 8px 12px #282828;
 	transition: ease 0.5s;
 }
 
@@ -97,6 +99,8 @@ input[type=submit] {
 input[type=submit]:hover {
  	background-color: #232323;
  	box-shadow: inset -8px -8px 8px #282828,
+				inset 8px 8px 8px #1e1e1e;
+	-webkit-box-shadow: inset -8px -8px 8px #282828,
 				inset 8px 8px 8px #1e1e1e;
 	transition: ease 0.5s;
 }
