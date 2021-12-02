@@ -104,6 +104,14 @@ input[type=submit]:hover {
 				inset 8px 8px 8px #1e1e1e;
 	transition: ease 0.5s;
 }
+input[type=submit]:active {
+ 	background-color: #232323;
+ 	box-shadow: inset -8px -8px 8px #282828,
+				inset 8px 8px 8px #1e1e1e;
+	-webkit-box-shadow: inset -8px -8px 8px #282828,
+				inset 8px 8px 8px #1e1e1e;
+	transition: ease 0.5s;
+}
 
 .longbar {
 	position: relative;
